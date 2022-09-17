@@ -1,0 +1,13 @@
+
+s
+java:S1104"XMake explicitWait a static final constant or non-public and provide accessors if needed.(‹ìÕùùÿÿÿÿ
+p
+java:S1104"UMake sheetName a static final constant or non-public and provide accessors if needed.(û³™¯øÿÿÿÿ
+o
+java:S1104"TMake readFile a static final constant or non-public and provide accessors if needed.(ÿòÖòşÿÿÿÿ
+Z
+java:S2259t"?A "NullPointerException" could be thrown; "r" is nullable here.(ùä°ıÿÿÿÿ
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(´ùçÀ
+D
+java:S2140/")Use "java.util.Random.nextInt()" instead.(šğŒ×ÿÿÿÿÿ

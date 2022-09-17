@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add contacts from Excel to contacts list","Add Contact","SUCCESS","2022-09-16T20:54:41.165-05:00[America/Bogota]","0.0","20.36"
+"Create new meeting with new contact","Tester wants create new meeting for new contact","SUCCESS","2022-09-16T20:55:05.389-05:00[America/Bogota]","0.0","29.34"

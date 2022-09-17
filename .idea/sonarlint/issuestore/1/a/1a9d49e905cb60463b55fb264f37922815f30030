@@ -1,0 +1,10 @@
+
+`
+java:S2095("JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(‰ûÄë
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¶ÈÖëşÿÿÿÿ
+`
+java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(‰ûÄë
+h
+java:S2095&"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¶ÈÖëşÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‹’Ü8ôòÀ¸´0

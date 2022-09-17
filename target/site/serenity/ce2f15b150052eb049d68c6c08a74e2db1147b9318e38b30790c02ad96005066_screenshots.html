@@ -1,0 +1,287 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="baf738f6cd1a1930e1dd58124273cafff49f0fc1edf5a6906558ee8eefcf194f.html">Create New Meeting With New Contact</a></span>
+                > <span class="truncate-60"><a
+                    href="ce2f15b150052eb049d68c6c08a74e2db1147b9318e38b30790c02ad96005066.html">Tester wants create new meeting for new contact </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-09-2022 20:55</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Meeting With New Contact </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Tester wants create new meeting for new contact
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Tester opens the StartSharp login<br>When Tester wants to loging, he types his credentials<br><table class='embedded'><thead><th>user</th><th>password</th></thead><tbody><tr><td>admin</td><td>serenity</td></tr></tbody></table><br>When Tester create new meeting with new contact<br>Then Tester will be able see the meeting was succesfully scheduled &lt;text2&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="624efb4754a2c79b4e0e70c328d8da6db6964d98b12a18aaf9a2290572195fe5.png" title=" Example: {text2=22768491}" width="1920"/>
+                <img src="624efb4754a2c79b4e0e70c328d8da6db6964d98b12a18aaf9a2290572195fe5.png" title=" Given Tester opens the StartSharp login" width="1920"/>
+                <img src="624efb4754a2c79b4e0e70c328d8da6db6964d98b12a18aaf9a2290572195fe5.png" title=" When Tester wants to loging, he types his credentials
+| user | password |
+| admin | serenity |" width="1920"/>
+                <img src="624efb4754a2c79b4e0e70c328d8da6db6964d98b12a18aaf9a2290572195fe5.png" title=" Tester fill login" width="1920"/>
+                <img src="624efb4754a2c79b4e0e70c328d8da6db6964d98b12a18aaf9a2290572195fe5.png" title=" Tester enters 'admin' into label for user" width="1920"/>
+                <img src="109f7af089962dd1ab62c303020d6d1f021687ba6fc5b6d294731f22edb79dd6.png" title=" Tester enters 'admin' into label for user (completed)" width="1920"/>
+                <img src="109f7af089962dd1ab62c303020d6d1f021687ba6fc5b6d294731f22edb79dd6.png" title=" Tester enters 'serenity' into label for password" width="1920"/>
+                <img src="20fe4cd1126e989910cc2ff7fc138cf63003473991fd5eda29b5e5d8c98ea6c3.png" title=" Tester enters 'serenity' into label for password (completed)" width="1920"/>
+                <img src="20fe4cd1126e989910cc2ff7fc138cf63003473991fd5eda29b5e5d8c98ea6c3.png" title=" Tester clicks on button Sign In" width="1920"/>
+                <img src="5c7840b2434ac86fc183884ac3574668cf37a13bf2d72454e82c4fdef7522224.png" title=" Tester clicks on button Sign In (completed)" width="1920"/>
+                <img src="5c7840b2434ac86fc183884ac3574668cf37a13bf2d72454e82c4fdef7522224.png" title=" Tester fill login (completed)" width="1920"/>
+                <img src="5c7840b2434ac86fc183884ac3574668cf37a13bf2d72454e82c4fdef7522224.png" title=" When Tester wants to loging, he types his credentials
+| user | password |
+| admin | serenity | (completed)" width="1920"/>
+                <img src="5c7840b2434ac86fc183884ac3574668cf37a13bf2d72454e82c4fdef7522224.png" title=" When Tester create new meeting with new contact" width="1920"/>
+                <img src="469b5159f427016dbcc4db58da2e9cd78c1620e9a341e6af1ebf295b8a2b6426.png" title=" Tester go to meeting" width="1920"/>
+                <img src="214d275d2b1ca95e9bcce4158b0edb118530138966622725f2a5f97ef8f5a44d.png" title=" Tester clicks on list Meeting" width="1920"/>
+                <img src="e323b367c93c40d126f45dc0f3a258bac6a9b31f4652a6a8ed5d87011ef4dbae.png" title=" Tester clicks on list Meeting (completed)" width="1920"/>
+                <img src="e323b367c93c40d126f45dc0f3a258bac6a9b31f4652a6a8ed5d87011ef4dbae.png" title=" Tester clicks on button Meetings" width="1920"/>
+                <img src="10c7517981c2a5f8eef58264b63da5a5ca8f1c6c86e81d67560bd1f4ab1b6f2c.png" title=" Tester clicks on button Meetings (completed)" width="1920"/>
+                <img src="10c7517981c2a5f8eef58264b63da5a5ca8f1c6c86e81d67560bd1f4ab1b6f2c.png" title=" Tester go to meeting (completed)" width="1920"/>
+                <img src="10c7517981c2a5f8eef58264b63da5a5ca8f1c6c86e81d67560bd1f4ab1b6f2c.png" title=" Tester create new meeting" width="1920"/>
+                <img src="b66fb943b907e11d530f524b89aadfb043ccdb4076fc4f1bfa523efe3fdb5f71.png" title=" Tester clicks on button New Meeting" width="1920"/>
+                <img src="9da1c4d2f66dfc1557105c8244e0a05118d3d2834bf3326b729cb3844277701d.png" title=" Tester clicks on button New Meeting (completed)" width="1920"/>
+                <img src="928216800cfedfb06aeb47ba0c6cc02ef77fad17ec1e26c40c226e61a2219671.png" title=" Tester enters 'INDUCCION NUEVO INGRESO' into label Meeting Name" width="1920"/>
+                <img src="51ea762ffa982adb6d216ad1eceb4e6ec3fe93b180a3ac98c7ccfb07b3a9f5b6.png" title=" Tester enters 'INDUCCION NUEVO INGRESO' into label Meeting Name (completed)" width="1920"/>
+                <img src="51ea762ffa982adb6d216ad1eceb4e6ec3fe93b180a3ac98c7ccfb07b3a9f5b6.png" title=" Tester enters '22768491' into label Meeting Number" width="1920"/>
+                <img src="e39bcf3628a588c41c404a972bc28f9009acd64947d01cb29c4aaeb918324d1c.png" title=" Tester enters '22768491' into label Meeting Number (completed)" width="1920"/>
+                <img src="e39bcf3628a588c41c404a972bc28f9009acd64947d01cb29c4aaeb918324d1c.png" title=" Tester clicks on list Meeting Type" width="1920"/>
+                <img src="f5af984b2e9f2a8985364b05c8f228e1dc42b71d477cc1c091aeb5d617028c67.png" title=" Tester clicks on list Meeting Type (completed)" width="1920"/>
+                <img src="f5af984b2e9f2a8985364b05c8f228e1dc42b71d477cc1c091aeb5d617028c67.png" title=" Tester clicks on list Meeting Element 4" width="1920"/>
+                <img src="be2cf704787d85b256b81131e080f9364a3bf188a99b2cadee646ef69c04e4ab.png" title=" Tester clicks on list Meeting Element 4 (completed)" width="1920"/>
+                <img src="be2cf704787d85b256b81131e080f9364a3bf188a99b2cadee646ef69c04e4ab.png" title=" Tester clicks on button Start Date" width="1920"/>
+                <img src="5882403a8a9b341937466ab2a22dc00dd97319a13a3804359f185b75346d6481.png" title=" Tester clicks on button Start Date (completed)" width="1920"/>
+                <img src="98f70b99006183e0251654df25695eb7dcee7f6fd24c88689e1fe00b0bbb59d1.png" title=" Tester clicks on button Today #1" width="1920"/>
+                <img src="25ec5e70a440244b140ef4421388fdf3dd3c9310314883cd33ca6cf81f0743fe.png" title=" Tester clicks on button Today #1 (completed)" width="1920"/>
+                <img src="25ec5e70a440244b140ef4421388fdf3dd3c9310314883cd33ca6cf81f0743fe.png" title=" Tester clicks on button Done" width="1920"/>
+                <img src="7914a4b039351c256e1718e3d4fca1cc02e1e35a43216a0a74ac9726995609ce.png" title=" Tester clicks on button Done (completed)" width="1920"/>
+                <img src="7914a4b039351c256e1718e3d4fca1cc02e1e35a43216a0a74ac9726995609ce.png" title=" Tester clicks on button End Date" width="1920"/>
+                <img src="a48cd3503b37ede9193f26f87b6680802c6684369cc01b65b8753e65cc69056f.png" title=" Tester clicks on button End Date (completed)" width="1920"/>
+                <img src="2567a23a14e331e6ae86126879b92924b2ad8bd61ceba7cd3458773e9b7319e4.png" title=" Tester clicks on button Today #2" width="1920"/>
+                <img src="2a3ed15068c198a01067e9906ca7538e49a9e37554f1b98e51ed00b577a5a086.png" title=" Tester clicks on button Today #2 (completed)" width="1920"/>
+                <img src="2a3ed15068c198a01067e9906ca7538e49a9e37554f1b98e51ed00b577a5a086.png" title=" Tester clicks on button Done" width="1920"/>
+                <img src="18018c99bcff2b3b8fd6763ab0b7626339d1bf533a837d86fcc73122470c1a5e.png" title=" Tester clicks on button Done (completed)" width="1920"/>
+                <img src="18018c99bcff2b3b8fd6763ab0b7626339d1bf533a837d86fcc73122470c1a5e.png" title=" Tester clicks on button Current time #1" width="1920"/>
+                <img src="dfbdd17dc419c3c3913365a33791ff246a961650415eedf68b792ee5b721933c.png" title=" Tester clicks on button Current time #1 (completed)" width="1920"/>
+                <img src="dfbdd17dc419c3c3913365a33791ff246a961650415eedf68b792ee5b721933c.png" title=" Tester clicks on button Current time #2" width="1920"/>
+                <img src="6bf264086b26664e0042951b46c9b9791f7cc6335dbaff1aac9adbb80b727898.png" title=" Tester clicks on button Current time #2 (completed)" width="1920"/>
+                <img src="6bf264086b26664e0042951b46c9b9791f7cc6335dbaff1aac9adbb80b727898.png" title=" Tester select from list" width="1920"/>
+                <img src="4560ef4f2ff6e8fafc7962a9b35efeafc5ac4beb536ba73b39ba13e311449e06.png" title=" Tester select from list (completed)" width="1920"/>
+                <img src="4560ef4f2ff6e8fafc7962a9b35efeafc5ac4beb536ba73b39ba13e311449e06.png" title=" Tester select from list" width="1920"/>
+                <img src="87df3388b5bce36d02edb797b5111bee102637534e790d4dbee8597399dd8d4e.png" title=" Tester select from list (completed)" width="1920"/>
+                <img src="87df3388b5bce36d02edb797b5111bee102637534e790d4dbee8597399dd8d4e.png" title=" Tester clicks on list Location Items" width="1920"/>
+                <img src="af622a27148990e95a8c9e674f3627b7cf90c50de33da1bb87b30b910c5d9292.png" title=" Tester clicks on list Location Items (completed)" width="1920"/>
+                <img src="deb26aa92512630a1a28ad512025ab18524733c7a48b7c7a3e031afeedab7aeb.png" title=" Tester select from list web" width="1920"/>
+                <img src="84fc9df929fcd58d5a08a1fc13aa81ea6b19ec4a12d41dbb7025022cfc0d5007.png" title=" Tester select from list web (completed)" width="1920"/>
+                <img src="84fc9df929fcd58d5a08a1fc13aa81ea6b19ec4a12d41dbb7025022cfc0d5007.png" title=" Tester clicks on list Unit" width="1920"/>
+                <img src="2fd60f7ef3ec7cc43869281c0b36ca708d2ee4086c4da68f3ee46cb261fd9a74.png" title=" Tester clicks on list Unit (completed)" width="1920"/>
+                <img src="2fd60f7ef3ec7cc43869281c0b36ca708d2ee4086c4da68f3ee46cb261fd9a74.png" title=" Tester select from list web" width="1920"/>
+                <img src="fe20c5db2c9e7fbad1a5f1e3c0274f3ecb1d099347cd444ad85344ee86c70f9f.png" title=" Tester select from list web (completed)" width="1920"/>
+                <img src="fe20c5db2c9e7fbad1a5f1e3c0274f3ecb1d099347cd444ad85344ee86c70f9f.png" title=" Tester clicks on list Organized By" width="1920"/>
+                <img src="82b490be42f393c7fcf5cc0d0a03028347bef0face6a5a9a508dff1ff23ba3cd.png" title=" Tester clicks on list Organized By (completed)" width="1920"/>
+                <img src="934a1070a90501188e623c87af0ef3983382babb37347c3896bd2fd383fbe365.png" title=" Tester select from list web" width="1920"/>
+                <img src="0dce537e87f30a2a457200db5e691b866ddace934f48a528185c6254719b1b04.png" title=" Tester select from list web (completed)" width="1920"/>
+                <img src="0dce537e87f30a2a457200db5e691b866ddace934f48a528185c6254719b1b04.png" title=" Tester clicks on list Attendee" width="1920"/>
+                <img src="448ff06fdbf5fe7ef3e07e6aa1ae2f3571d28ddc0ebe2f097ce30b5288fc2e68.png" title=" Tester clicks on list Attendee (completed)" width="1920"/>
+                <img src="448ff06fdbf5fe7ef3e07e6aa1ae2f3571d28ddc0ebe2f097ce30b5288fc2e68.png" title=" Tester clicks on lbl Attendee" width="1920"/>
+                <img src="eb196be4d02e1fef7081f1e068cd5adb74755a1d330b93215901d1369fa2d2fd.png" title=" Tester clicks on lbl Attendee (completed)" width="1920"/>
+                <img src="eb196be4d02e1fef7081f1e068cd5adb74755a1d330b93215901d1369fa2d2fd.png" title=" Tester enters 'Vladimir ' into lbl Attendee" width="1920"/>
+                <img src="280d070daaa6e0c166927cc37c2fe4ea26e99cb3a210c00230f61924da16b26f.png" title=" Tester enters 'Vladimir ' into lbl Attendee (completed)" width="1920"/>
+                <img src="5a48485b9d96b16dfb70cc22b3cf860b120e52be35dca2b2c02b9570ef19b356.png" title=" Tester clicks on button Save" width="1920"/>
+                <img src="c89baded7dda8f292dd591e26615b331060d161c680a3297f23383da1eb29310.png" title=" Tester clicks on button Save (completed)" width="1920"/>
+                <img src="c89baded7dda8f292dd591e26615b331060d161c680a3297f23383da1eb29310.png" title=" Tester create new meeting (completed)" width="1920"/>
+                <img src="c89baded7dda8f292dd591e26615b331060d161c680a3297f23383da1eb29310.png" title=" When Tester create new meeting with new contact (completed)" width="1920"/>
+                <img src="2b997f3611070b9cd6c786ebadc00724ba21e83d0ec3b57e6050d90144e8fec6.png" title=" Then Tester will be able see the meeting was succesfully scheduled 22768491" width="1920"/>
+                <img src="2b997f3611070b9cd6c786ebadc00724ba21e83d0ec3b57e6050d90144e8fec6.png" title=" Then identity no question should be '22768491'" width="1920"/>
+                <img src="65c69bb46b448b403edadcbee21d86d4d386a25f4638563eda3c287fe7246083.png" title=" Then identity no question should be '22768491' (completed)" width="1920"/>
+                <img src="65c69bb46b448b403edadcbee21d86d4d386a25f4638563eda3c287fe7246083.png" title=" Then Tester will be able see the meeting was succesfully scheduled 22768491 (completed)" width="1920"/>
+                <img src="65c69bb46b448b403edadcbee21d86d4d386a25f4638563eda3c287fe7246083.png" title=" Example: {text2=22768491} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
