@@ -4,7 +4,7 @@
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
 4 Steps (?[32m4 passed?[0m)
-0m29.806s
+0m46.440s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Create new meeting with new contact

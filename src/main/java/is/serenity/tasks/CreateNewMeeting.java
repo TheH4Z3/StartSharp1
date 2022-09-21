@@ -25,7 +25,7 @@ public class CreateNewMeeting implements Task {
 
     public String sheetName = "Hoja1";
     public ReadExcelFile readFile = new ReadExcelFile();
-    String filepath = "C:\\Users\\VLADIMIR IGLESIAS\\Desktop\\Test.xlsx";
+    String filepath = "Test.xlsx";
     String inputValue1 = readFile.getCellValue(filepath, sheetName, 1, 1);
     String inputValue4 = readFile.getCellValue(filepath, sheetName, 4, 1);
 

@@ -11,6 +11,7 @@ public class ExplicitWait implements Interaction {
         this.secs = secs;
     }
 
+
     @Override
     public <T extends Actor> void performAs(T actor) {
 

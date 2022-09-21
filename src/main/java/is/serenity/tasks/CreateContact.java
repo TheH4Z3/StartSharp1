@@ -22,7 +22,7 @@ public class CreateContact implements Task {
     public ExplicitWait explicitWait = new ExplicitWait(5);
 
 
-    String filepath = "C:\\Users\\VLADIMIR IGLESIAS\\Desktop\\Test.xlsx";
+    String filepath = "Test.xlsx";
     String inputValue0 = readFile.getCellValue(filepath, sheetName, 0, 1);
     String inputValue1 = readFile.getCellValue(filepath, sheetName, 1, 1);
     String inputValue2 = readFile.getCellValue(filepath, sheetName, 2, 1);

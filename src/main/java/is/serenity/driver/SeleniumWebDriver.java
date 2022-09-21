@@ -23,5 +23,4 @@ public class SeleniumWebDriver {
         driver.manage().window().maximize();
         return driver;
     }
-
 }

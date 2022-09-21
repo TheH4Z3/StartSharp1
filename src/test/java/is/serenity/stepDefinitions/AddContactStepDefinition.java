@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 import is.serenity.driver.SeleniumWebDriver;
 import is.serenity.models.Model;
 import is.serenity.questions.IdentityNoQuestion;
+import is.serenity.questions.LogingQuestion;
 import is.serenity.tasks.CreateContact;
 import is.serenity.tasks.FillLogin;
 import is.serenity.tasks.GoToContact;
@@ -21,6 +22,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class AddContactStepDefinition {
+
 
     @Before
     public void before() {
@@ -39,12 +41,13 @@ public class AddContactStepDefinition {
     }
 
     @Then("^Tester can add a new contact to contacts list (.*)$")
+
     public void testerCanAddANewContactToContactsList(String text) {
         theActorInTheSpotlight().attemptsTo(
                 GoToContact.on(),
                 CreateContact.on()
         );
-        OnStage.theActorInTheSpotlight().should(seeThat(IdentityNoQuestion.IdentityNo(), equalTo(text)));
+        OnStage.theActorInTheSpotlight().should(seeThat(LogingQuestion.TextHome(), equalTo(text)));
 
     }
 
